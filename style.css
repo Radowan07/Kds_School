@@ -1,49 +1,150 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
 
 
 
 
 .quicksand-font {
-  font-family: "Quicksand", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
 }
 
 /* shared style */
-.display-flex{
+.display-flex {
     display: flex;
     align-items: center;
+}
+
+.one {
+    color: rgba(254, 163, 1, 1);
+}
+
+.two {
+    color: rgba(1, 172, 253, 1);
+}
+
+.three {
+    color: rgba(5, 212, 223, 1);
+}
+
+.four {
+    color: rgba(93, 88, 239, 1);
 }
 
 /* header style */
 
 /* nav style */
-.nav-bar{
+.nav-bar {
     justify-content: space-between;
     align-items: center;
 }
 
-.Brand{
+.Brand {
     font-weight: bold;
     font-size: 2rem;
 }
 
 
-.nav-item{
+.nav-item {
     list-style: none;
     margin-right: 32px;
 }
-.nav-link{
+
+.nav-link {
     text-decoration: none;
+    font-size: 1.25rem;
+    font-weight: 400;
 }
-body{
+
+body {
     max-width: 1160px;
     margin: 0 auto;
 }
-.logo{
-    width: 62px; 
-  height: 62px;
-  
+
+.logo {
+    width: 62px;
+    height: 62px;
+
 }
+
+.btn-style {
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: rgba(255, 255, 255, 1);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: rgba(254, 163, 1, 1);
+    border: none;
+    border-radius: 8px;
+}
+
+/* banner style  */
+.banner-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.banner-pera{
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+.btn_two{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 47px;
+    padding-left: 47px;
+    background-color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 8px;
+}
+.banner{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen {}
