@@ -85,12 +85,16 @@ body {
 .banner-title {
     font-size: 3.5rem;
     font-weight: bold;
+    margin-bottom: 0px;
 }
-.banner-pera{
+
+.banner-pera {
     font-size: 1.25rem;
     font-weight: normal;
+    margin-top: 24px;
 }
-.btn_two{
+
+.btn_two {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-right: 47px;
@@ -101,8 +105,21 @@ body {
     color: #fff;
     border-radius: 8px;
 }
-.banner{
+
+.banner {
     display: flex;
+}
+
+.for-responsive {
+    display: none;
+}
+
+.banner-img {
+    width: 100%;
+
+}
+.none{
+    display: none;
 }
 
 
@@ -146,5 +163,55 @@ body {
 
 
 
+@media screen and (max-width: 390px) {
+    .logo {
+        width: 46px;
+        height: 46px;
+    }
 
-@media screen {}
+    .nav-item a,
+    .Brand,
+    .btn-style {
+        display: none;
+    }
+    .nav-bar {
+        border: 1.5px solid rgba(254, 163, 1, 1);
+        justify-content: space-between;
+    }
+
+    .for-responsive {
+        display: block;
+        width: 1.87rem;
+        height: 1.87rem;
+        border: none;
+    }
+
+    .banner {
+        flex-direction: column-reverse;
+
+    }
+
+    .banner-description {
+        text-align: center;
+    }
+
+    header,
+    main {
+        max-width: 357px;
+        margin: 0 auto;
+    }
+
+    .kids-img {
+        max-width: 100%;
+        height: auto;
+    }
+    .banner-title{
+       font-size: 2rem;
+    }
+    .none{
+        display: block;
+    }
+
+
+
+}
