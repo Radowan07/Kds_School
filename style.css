@@ -14,9 +14,9 @@
 
 .bg {
     background-image: url('assets/bg.png')
-     /* background-size:;  */
+        /* background-size:;  */
 
-    /* background-repeat: no-repeat; */
+        /* background-repeat: no-repeat; */
 
 
 }
@@ -42,7 +42,8 @@
 .four {
     color: rgba(93, 88, 239, 1);
 }
-.align-item{
+
+.align-item {
     align-items: center;
 }
 
@@ -138,54 +139,94 @@ body {
 .none {
     display: none;
 }
+
 /* card section */
-.middle-title{
-    font-size:2.87rem ;
+.middle-title {
+    font-size: 2.87rem;
     font-weight: bold;
     text-align: center;
 }
-.scl-cetagory-card{
+
+.scl-cetagory-card {
     display: flex;
+    /* justify-content: space-between; */
     /* justify-content: space-between; */
 
 }
-.card-one{
-    background-color: rgba(222, 245, 255, 1);
-    margin-right:40px ;
-    margin-left: 40px;
-    margin-top: 53px;
-    margin-bottom: 58px;
+
+.card-one {
+    background: linear-gradient(#DEF5FF, #FFFFFF);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 52.82px;
+    padding-bottom: 58.48px;
     text-align: center;
+    border-radius: 18.86px;
+    margin-right: 28.29px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05), inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
 
 
 }
-.card-title{
+
+.card-three {
+    background: linear-gradient(#FFF4DC, #FFFFFF);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 52.82px;
+    padding-bottom: 58.48px;
+    text-align: center;
+    border-radius: 18.86px;
+    margin-right: 28.29px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05), inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.card-four {
+    background: linear-gradient(#EEE1FF, #FFFFFF);
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-top: 52.82px;
+    padding-bottom: 58.48px;
+    text-align: center;
+    border-radius: 18.86px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05), inset 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+
+
+}
+
+
+.card-title {
     font-size: 1.53rem;
     font-weight: bold;
     color: rgba(32, 32, 32, 1);
 }
-.card-description{
+
+.card-description {
     font-size: 1.002rem;
     font-weight: normal;
     color: rgba(128, 128, 128, 1);
 
 }
-.link-style{
+
+.link-style {
     text-decoration: none;
-    font-size:1.002rem ;
+    font-size: 1.002rem;
     font-weight: bold;
     color: rgba(100, 200, 255, 1);
 
 }
-.link-style-two{
+
+.link-style-two {
     text-decoration: none;
-    font-size:1.002rem ;
+    font-size: 1.002rem;
     font-weight: bold;
     color: rgba(240, 170, 0, 1);
 }
-.link-style-three{
+
+.link-style-three {
     text-decoration: none;
-    font-size:1.002rem ;
+    font-size: 1.002rem;
     font-weight: bold;
     color: rgba(135, 0, 255, 1);
 }
