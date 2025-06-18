@@ -310,6 +310,8 @@ body {
     .nav-bar {
         border: 1.5px solid rgba(254, 163, 1, 1);
         justify-content: space-between;
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .for-responsive {
@@ -335,7 +337,8 @@ body {
     }
 
     .kids-img {
-        max-width: 100%;
+        width: 357px;
+        /* max-width: 100%; */
         height: auto;
         /* margin-left: 26px; */
         /* margin-right: 26px; */
@@ -356,6 +359,11 @@ body {
     .scl-cetagory-card {
         display: grid;
         grid-template-columns: 1fr;
+    }
+
+
+    .chevron {
+        display: none;
     }
 
 
