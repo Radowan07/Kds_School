@@ -231,6 +231,34 @@ body {
     color: rgba(135, 0, 255, 1);
 }
 
+.chevron {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* border-radius: 50%; */
+    margin-top: 80px;
+}
+
+.left-arrow {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    background: rgba(254, 163, 1, 1);
+    border: none;
+    color: #FFFFFF;
+}
+
+.right-arrow {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 1.5rem;
+    background: rgba(254, 163, 1, 1);
+    border: none;
+    color: #FFFFFF;
+}
+
 
 
 
@@ -323,6 +351,12 @@ body {
 
     .none {
         display: block;
+    }
+    .middle-part{
+         display: grid; 
+         grid-template-columns: repeat(1 ,1fr); 
+        /* display: flex; */
+        /* flex-direction: column; */
     }
 
 
