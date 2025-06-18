@@ -353,8 +353,9 @@ body {
         display: block;
     }
 
-    .middle-part {
-        flex-direction: column;
+    .scl-cetagory-card {
+        display: grid;
+        grid-template-columns: 1fr;
     }
 
 
