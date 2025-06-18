@@ -352,11 +352,9 @@ body {
     .none {
         display: block;
     }
-    .middle-part{
-         display: grid; 
-         grid-template-columns: repeat(1 ,1fr); 
-        /* display: flex; */
-        /* flex-direction: column; */
+
+    .middle-part {
+        flex-direction: column;
     }
 
 
