@@ -14,17 +14,16 @@
 
 .bg {
     background-image: url('assets/bg.png')
-        /* background-size:;  */
-
-        /* background-repeat: no-repeat; */
-
-
 }
 
 /* shared style */
 .display-flex {
     display: flex;
     align-items: center;
+}
+
+.text-align {
+    text-align: center;
 }
 
 .one {
@@ -45,6 +44,19 @@
 
 .align-item {
     align-items: center;
+}
+
+/* for card (2nd) */
+.sizing {
+    width: 290.69px;
+    height: 301.61px;
+    background:#FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.pic-radious {
+    border-radius: 16px 16px 0px 0px;
 }
 
 /* header style */
@@ -259,6 +271,83 @@ body {
     color: #FFFFFF;
 }
 
+.stories-card {
+    display: flex;
+    justify-content: center;
+}
+
+.story-date {
+    font-size: 0.96rem;
+    font-weight: normal;
+    background: rgba(60, 216, 232, 1);
+    border-radius: 47.93px;
+    width: 174.51px;
+    height: 47.93px;
+    border: none;
+    margin-left: 38.5px;
+    margin-top: -25px;
+
+
+}
+
+.story-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 38.35px;
+
+}
+
+.story-des {
+    font-size: 0.96rem;
+    font-weight: normal;
+    margin-left: 37.91px;
+    margin-right: 51.75px;
+    margin-top: 23.97px;
+    margin-bottom: 33.55px;
+
+}
+
+.test {
+    padding: 14px 19px 14px 19px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.picture-one {
+    border-radius: ;
+}
+
+/* card one */
+.picture-one {
+    border-radius: 16px 16px 0px 0px;
+}
+
+.stories-card-one {
+    margin-right: 18.73px;
+    background: #FFFFFF;
+    width: 540px;
+    height: 630.52px;
+    border-radius: 16px;
+    box-shadow: 0px 0px 28.3px 0.94px rgba(0, 0, 0, 0.05);
+}
+
+.story-description {
+    margin-left: 38.35px;
+    margin-top: 47.93px;
+    font-size: 0.96rem;
+    font-weight: normal;
+
+}
+.card-second-part{
+    display: grid;
+    grid-template-columns: repeat(2,1fr) ;
+    
+}
+.stories-card-two{
+    margin-right: 19.17px;
+    margin-bottom: 19.39px;
+}
 
 
 
@@ -285,17 +374,8 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 390px) {
+/* card section second part */
+. @media screen and (max-width: 390px) {
     .logo {
         width: 46px;
         height: 46px;
@@ -357,9 +437,20 @@ body {
     }
 
     .scl-cetagory-card {
-        display: grid;
-        grid-template-columns: 1fr;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
     }
+
+    ⚠️⚠️
+
+    /* more work on here */
+    ⚠️⚠️ .card-one {
+        /* padding:28px 36px 28px 36px ; */
+    }
+
+    .card-four {}
 
 
     .chevron {
