@@ -463,6 +463,9 @@ footer ul a {
     display: flex;
     gap: 10px;
 }
+.stories-card-three-mobile{
+    display: none;
+}
 
 
 
@@ -485,8 +488,15 @@ footer ul a {
 
 
 
-/* card section second part */
-. @media screen and (max-width: 390px) {
+
+
+@media screen and (max-width: 576px)  {
+    
+    
+    
+    
+    
+    
     .logo {
         width: 46px;
         height: 46px;
@@ -501,8 +511,8 @@ footer ul a {
     .nav-bar {
         border: 1.5px solid rgba(254, 163, 1, 1);
         justify-content: space-between;
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: 0;
+        width: 390px;
     }
 
     .for-responsive {
@@ -521,7 +531,7 @@ footer ul a {
         text-align: center;
     }
 
-    header,
+    header
     main {
         max-width: 357px;
         margin: 0 auto;
@@ -529,8 +539,8 @@ footer ul a {
 
     .kids-img {
         width: 357px;
-        /* max-width: 100%; */
-        height: auto;
+        /* max-width: 100%;  */
+        /* height: auto; */
         /* margin-left: 26px; */
         /* margin-right: 26px; */
     }
@@ -546,19 +556,27 @@ footer ul a {
     .none {
         display: block;
     }
+    .middle-title{
+        display: flex;
+    }
 
     .scl-cetagory-card {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        gap: 20px;
+        max-width: 357px;
 
     }
 
 
 
     /* more work on here */
-    .card-one {
+    .card-one ,.card-three,.card-four {
         /* padding:28px 36px 28px 36px ; */
+        width: 357px;
+        height: 321px;
+        
     }
 
     .card-four {}
@@ -576,6 +594,20 @@ footer ul a {
     .card-second-part {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        width: 50%;
+        align-items: center;
+       
+    }
+    /* .stories-card-two,.stories-card-three,.stories-card-four,.stories-card-five{ */
+        /* width: 157px; */
+    /* } */
+    .footer-style{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .stories-card-three-mobile{
+        display: block;
     }
 
 
